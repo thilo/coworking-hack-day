@@ -1,4 +1,10 @@
 safe: true
 lsi: false
 pygments: true
-Exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'CNAME']
+exclude: 
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - CNAME
+  - config.rb
+  - README.md
