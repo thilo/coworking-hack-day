@@ -1,4 +1,4 @@
-<h2>This is a sitbar</h2>
+<h2>This is a sidebar</h2>
 
 {% for post in site.posts limit:1%}
 <div class="post">

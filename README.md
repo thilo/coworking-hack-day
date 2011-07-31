@@ -1,4 +1,4 @@
-# This is the coworking hack dayWebsite
+# This is the Coworking Hack Day Website
 
 ## How to set it up and run locally
 
