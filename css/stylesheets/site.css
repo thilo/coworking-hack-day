@@ -92,107 +92,81 @@ h2 {
 }
 
 /* line 29, ../src/site.scss */
-h3 {
-  font-size: 1.5em;
-  line-height: 1;
-  margin-bottom: 1em;
-}
-
-/* line 30, ../src/site.scss */
-h4 {
-  font-size: 1.2em;
-  line-height: 1.25;
-  margin-bottom: 1.25em;
-}
-
-/* line 31, ../src/site.scss */
 h5 {
   font-size: 1em;
-  font-weight: bold;
   margin-bottom: 1.5em;
 }
 
-/* line 32, ../src/site.scss */
-h6 {
-  font-size: 1em;
-  font-weight: bold;
-}
-
-/* line 33, ../src/site.scss */
-h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
-  margin: 0;
-}
-
-/* line 34, ../src/site.scss */
+/* line 30, ../src/site.scss */
 p {
   margin: 0 0 1.5em;
 }
 
-/* line 35, ../src/site.scss */
+/* line 31, ../src/site.scss */
 strong, dfn {
   font-weight: bold;
 }
 
-/* line 36, ../src/site.scss */
+/* line 32, ../src/site.scss */
 em, dfn {
   font-style: italic;
 }
 
-/* line 37, ../src/site.scss */
+/* line 33, ../src/site.scss */
 address {
   margin: 0 0 1.5em;
   font-style: italic;
 }
 
-/* line 38, ../src/site.scss */
+/* line 34, ../src/site.scss */
 li ul, li ol {
   margin: 0;
 }
 
-/* line 39, ../src/site.scss */
+/* line 35, ../src/site.scss */
 ul, ol {
   margin: 0 1.5em 1.5em 0;
   padding-left: 1.5em;
 }
 
-/* line 40, ../src/site.scss */
+/* line 36, ../src/site.scss */
 ul {
   list-style-type: disc;
 }
 
-/* line 41, ../src/site.scss */
+/* line 37, ../src/site.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 42, ../src/site.scss */
+/* line 38, ../src/site.scss */
 dl {
   margin: 0 0 1.5em 0;
 }
 
-/* line 43, ../src/site.scss */
+/* line 39, ../src/site.scss */
 dl dt {
   font-weight: bold;
 }
 
-/* line 44, ../src/site.scss */
+/* line 40, ../src/site.scss */
 dd {
   margin-left: 1.5em;
 }
 
 /* serif */
-/* line 47, ../src/site.scss */
+/* line 43, ../src/site.scss */
 body {
   font-family: Georgia, Times, serif;
 }
 
 /* sans-serif */
-/* line 53, ../src/site.scss */
-h1, h2, h3, h4, nav {
+/* line 49, ../src/site.scss */
+h1, h2, h3, h4, nav, aside {
   font-family: proxima-nova, Helvetica, Arial, sans-serif;
 }
 
-/* line 58, ../src/site.scss */
+/* line 53, ../src/site.scss */
 body {
   border-top: 4px solid #184860;
   font-size: 100%;
@@ -200,23 +174,24 @@ body {
   background: #eaeded;
 }
 
-/* line 65, ../src/site.scss */
+/* line 60, ../src/site.scss */
 .container {
   width: 750px;
   margin: 0 auto;
+  padding: 0 1em;
 }
 
-/* line 70, ../src/site.scss */
+/* line 66, ../src/site.scss */
 header {
   padding: 6em 0 2em 0;
   background: #7abad6 url(/img/chd_bg_blue.png) repeat;
 }
-/* line 73, ../src/site.scss */
+/* line 69, ../src/site.scss */
 header h1, header h2 {
   text-align: center;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
 }
-/* line 77, ../src/site.scss */
+/* line 73, ../src/site.scss */
 header h1 {
   background: transparent url(/img/chd_logo.png) no-repeat 50% 50%;
   text-indent: -9999px;
@@ -226,32 +201,88 @@ header h1 {
   color: #FFF;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 }
-/* line 86, ../src/site.scss */
+/* line 82, ../src/site.scss */
 header h2 {
   font-size: 1.5em;
   margin-bottom: 2em;
   color: #1c2b33;
 }
 
-/* line 93, ../src/site.scss */
+/* line 89, ../src/site.scss */
 footer {
   padding: 1.5em 0;
   background: #7abad6 url(/img/chd_bg_blue.png) repeat;
 }
-/* line 96, ../src/site.scss */
+/* line 92, ../src/site.scss */
 footer p {
   text-align: right;
   font-size: .75em;
 }
 
-/* line 102, ../src/site.scss */
+/* line 98, ../src/site.scss */
+#main {
+  overflow: hidden;
+  padding-bottom: 4.5em;
+}
+
+/* line 103, ../src/site.scss */
+.content {
+  width: 360px;
+  margin-right: 30px;
+  float: left;
+}
+/* line 107, ../src/site.scss */
+.content h3 {
+  padding-top: 3em;
+}
+/* line 110, ../src/site.scss */
+.content p {
+  font-size: .875em;
+}
+
+/* line 115, ../src/site.scss */
+aside {
+  float: left;
+  width: 240px;
+  margin-top: 3em;
+  margin-left: 100px;
+  padding: 0 10px;
+  background: #FFF;
+  -moz-border-radius: .25em;
+  -webkit-border-radius: .25em;
+  border-radius: .25em;
+}
+/* line 125, ../src/site.scss */
+aside ul {
+  list-style: none;
+  margin: 0 0 1.5em 0;
+  padding: 0;
+  font-size: .875em;
+}
+/* line 130, ../src/site.scss */
+aside ul li {
+  overflow: hidden;
+  color: #184860;
+  margin-bottom: .5em;
+  line-height: 1.25em;
+  border-bottom: 1px solid #eaeded;
+}
+/* line 136, ../src/site.scss */
+aside ul li span {
+  width: 3.2em;
+  margin-bottom: .1em;
+  color: #999;
+  float: left;
+}
+
+/* line 146, ../src/site.scss */
 .teaser {
   padding: 0 100px;
   text-align: center;
   font-style: italic;
 }
 
-/* line 108, ../src/site.scss */
+/* line 152, ../src/site.scss */
 nav {
   width: 100%;
   height: 1.5em;
@@ -261,8 +292,9 @@ nav {
   margin-bottom: 2em;
   background: #eaeded;
   text-transform: uppercase;
+  font-weight: bold;
 }
-/* line 117, ../src/site.scss */
+/* line 162, ../src/site.scss */
 nav ul {
   font-size: .75em;
   float: left;
@@ -270,11 +302,11 @@ nav ul {
   padding: 0;
   list-style: none;
 }
-/* line 123, ../src/site.scss */
+/* line 168, ../src/site.scss */
 nav ul li {
   display: inline;
 }
-/* line 127, ../src/site.scss */
+/* line 172, ../src/site.scss */
 nav ul li a,
 nav ul li a:link,
 nav ul li a:visited {
@@ -282,14 +314,14 @@ nav ul li a:visited {
   color: #298cbb;
   text-decoration: none;
 }
-/* line 134, ../src/site.scss */
+/* line 179, ../src/site.scss */
 nav ul li a:hover,
 nav ul li a:active,
 nav ul li a:focus {
   color: #7abad6;
   text-decoration: none;
 }
-/* line 142, ../src/site.scss */
+/* line 187, ../src/site.scss */
 nav a.twitter,
 nav a.twitter:link,
 nav a.twitter:visited {
@@ -301,7 +333,7 @@ nav a.twitter:visited {
   color: #FFF;
   background: #184860;
 }
-/* line 154, ../src/site.scss */
+/* line 199, ../src/site.scss */
 nav a.twitter:hover,
 nav a.twitter:active,
 nav a.twitter:focus {
@@ -310,7 +342,7 @@ nav a.twitter:focus {
 }
 
 /* links */
-/* line 163, ../src/site.scss */
+/* line 208, ../src/site.scss */
 a,
 a:link,
 a:visited {
@@ -318,7 +350,7 @@ a:visited {
   text-decoration: none;
 }
 
-/* line 170, ../src/site.scss */
+/* line 215, ../src/site.scss */
 a:hover,
 a:active,
 a:focus {

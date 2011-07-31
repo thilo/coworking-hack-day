@@ -11,12 +11,12 @@
   <body>
       <nav id="nav">
         <div class="container">
-          <a href="#" class="twitter">Twitter</a>
+          <a href="http://twitter.com/cohackday" title="twitter.com/cohackday" class="twitter">Twitter</a>
 
           <ul>
             <li><a href="#header">Top</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#projects_and_rsvp">Projects &amp; RSVP</a></li>
             <li><a href="#location">Location</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -38,17 +38,18 @@
 
       <div id="main">
         <div class="container">
-          <h2>{{ page.title }}</h2>
-          {{ content }}
+          <div class="content">
+            {{ content }}
+          </div>
+          
+          <aside>
+            {% include sidebar.md %}
+          </aside>
+          
         </div>
       </div>
 
 
-    <!--
-    <div id="sidebar">
-      {% include sidebar.md %}
-    </div>
-    -->
   </body>
   
   <footer>
