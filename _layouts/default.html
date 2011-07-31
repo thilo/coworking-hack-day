@@ -1,32 +1,56 @@
 <!DOCTYPE html>
- 
+
 <html>
   <head>
      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-     <title>{{ page.title }} - Coworking Hack Day</title>
-    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&v2' rel='stylesheet' type='text/css'>
+     <title>{{ page.title }} Coworking Hack Day</title>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="/css/stylesheets/site.css" type="text/css" />
   </head>
+
   <body>
-    <div id="wrapper">
-      <div id="header">
-        <h1>Layout Headline</h1>
-        <div class="slogan">talk talk</div>
-      </div>
-      <ul id="navigation">
-        <li><a href="/">Top</a></li>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">Schedule</a></li>
-        <li><a href="/">Location</a></li>
-      </ul>
+      <nav id="nav">
+        <div class="container">
+          <a href="#" class="twitter">Twitter</a>
+
+          <ul>
+            <li><a href="#header">Top</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          
+        </div>
+      </nav>
+
+      <header id="header">
+        <div class="container">
+          <h1>Coworking Hack Day</h1>
+          <h2>Berlin, August 27-28, 2010</h2>
+          
+          <p class="teaser">
+            Coworking is all about bringing people together and making their daily work environment as creative and comfortable as possible. Coworking Hack Day takes this to the next level: One weekend of getting together, teaching each other and hacking an even more awesome coworking experience.
+          </p>
+          
+        </div>
+      </header>
+
       <div id="main">
-        <h2>{{ page.title }}</h2>
-        {{ content }}
+        <div class="container">
+          <h2>{{ page.title }}</h2>
+          {{ content }}
+        </div>
       </div>
-    </div>
+
+
+    <!--
     <div id="sidebar">
       {% include sidebar.md %}
     </div>
+    -->
   </body>
 </html>
+
+<script type="text/javascript" src="http://use.typekit.com/dhw8otl.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>

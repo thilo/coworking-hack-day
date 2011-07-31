@@ -1,153 +1,162 @@
-$red: #980905;
+$dblue: #1C2b33;
+$blue: #184860;
+$lblue: #7ABAD6;
+$mblue: #298CBB;
+$vlblue: #EAEDED;
+$red: red;
+$lred: orange;
 
-/** resets **/
+/* reset */
 
-*         { margin: 0; padding: 0; }
-a:active  { outline: none; }
-a:focus   { -moz-outline-style: none; }
-ul, ol    { list-style-position: inside; }
-ul li {
-  padding-left: 1.2em;
-  text-indent: -1em;
+/* reset.css */
+html {margin:0;padding:0;border:0;}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section {display:block;}
+body {line-height:1.5;background:white;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;float:none !important;}
+table, th, td {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+:focus {outline:0;}
+
+/* typography.css */
+html {font-size:100.01%;}
+h1, h2, h3, h4, h5, h6 {font-weight:bold;color:$blue;}
+h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
+h2 {font-size:2em;margin-bottom:0.75em;}
+h3 {font-size:1.5em;line-height:1;margin-bottom:1em;}
+h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
+h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
+h6 {font-size:1em;font-weight:bold;}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+p {margin:0 0 1.5em;}
+strong, dfn {font-weight:bold;}
+em, dfn {font-style:italic;}
+address {margin:0 0 1.5em;font-style:italic;}
+li ul, li ol {margin:0;}
+ul, ol {margin:0 1.5em 1.5em 0;padding-left:1.5em;}
+ul {list-style-type:disc;}
+ol {list-style-type:decimal;}
+dl {margin:0 0 1.5em 0;}
+dl dt {font-weight:bold;}
+dd {margin-left:1.5em;}
+
+/* serif */
+body {
+  font-family: Georgia, Times, serif;
 }
-/** resets **/
 
-p {
-  margin-top: 0.6em;
-  margin-bottom: 0.6em;
+
+/* sans-serif */
+h1, h2, h3, h4, nav {
+  font-family: proxima-nova, Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: $red;
+
+body {
+  border-top: 4px solid $blue;
+  font-size: 100%;
+  color: $dblue;
+  background: $vlblue;
+}
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 6em 0 2em 0;
+  background: $lblue url(/img/chd_bg_blue.png) repeat;
+  h1, h2 {
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+  }
+  h1 {
+    font-size: 3em;
+    margin-bottom: .125em;
+    text-transform: uppercase;
+    color: #FFF;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.75);
+  }
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+    color: $dblue;
+  }
+}
+
+.teaser {
+  padding: 0 100px;
+  text-align: center;
+  font-style: italic;
+}
+
+nav {
+  width: 100%;
+  height: 1.5em;
+  line-height: 2;
+  position: fixed;
+  top: 4px;
+  margin-bottom: 2em;
+  background: $vlblue;
+  text-transform: uppercase;
+  ul {
+    font-size: .75em;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      display: inline;
+      a,
+      a:link,
+      a:visited {
+        padding: 0 1.5em 0 0;
+        color: $mblue;
+        text-decoration: none;
+      }
+      a:hover,
+      a:active,
+      a:focus {
+        color: $lblue;
+        text-decoration: none;
+      }
+    }
+  }
+  a.twitter,
+  a.twitter:link,
+  a.twitter:visited {
+    width: 100px;
+    display: block;
+    font-size: .75em;
+    float: right;
+    text-align: center;
+    color: #FFF;
+    background: $blue;
+  }
+
+  a.twitter:hover,
+  a.twitter:active,
+  a.twitter:focus {
+    color: #FFF;
+    background: $mblue;
+  }
+}
+
+/* links */
+a,
+a:link,
+a:visited {
+  color: $mblue;
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:active,
+a:focus {
+  color: $lblue;
   text-decoration: underline;
-}
-body {
-  font-family: "Lucida Grande","Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  font-size: 13px;
-  background: white;
-  color: black;
-  position: relative;
-}
-
-h1, h2, h3 {
-  font-family: "Pluto", "Lucida Grande","Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-}
-
-h1 {
-  font-size: 3.2em;
-  max-width: 1000px;
-}
-
-.slogan {
-  font-size: 1.2em;
-}
-
-h2 {
-  font-size: 2.4em;
-
-  margin-top: 1em;
-  margin-bottom: 0.6em;
-}
-
-h3 {
-  font-size: 1.6em;
-  margin-top: 0.6em;
-  margin-bottom: 0.6em;
-  
-}
-
-/* all textual parts are moved inside for 3em */
-
-#wrapper > * {
-  padding-left: 3em;
-  position: relative;
-}
-
-/* all texts are moved inside $paddingleft */
-
-ul#navigation {
-  font-size: 1.1em;
-  
-  background: $red;
-  margin-top: 1em;
-  margin-bottom: 2em;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
-  position: relative;
-  
-  li {
-    display: inline;
-    padding-right: 1em;
-    padding-left: 0;
-    
-    a {
-      color: white;
-      padding-left: 1em;
-      padding-right: 1em;
-      padding-top: 0.3em;
-      padding-bottom: 0.3em;
-      text-decoration: none;
-    }
-    a:hover {
-      color: $red;
-      background: #fff;
-    }
-
-  }
-}
-
-/* The main content areaa */
-
-#main {
-  width: 60em;
-  padding-bottom: 2em;
-}
-
-#main ul li {
-  line-height: 1.5em;
-}
-
-/* sidebar */
-
-#sidebar {
-  background: rgba(200, 200, 200, 0.5);
-  position: absolute;
-  top: 0;
-  left: 67em;
-  width: 22em;
-  padding: 1em;
-  padding-top: 10em;
-  height: 600px;
-}
-
-.warning {
-  background: #FFF9D8;
-  border: medium none;
-  margin: 0.25em 4em 1em 2em;
-  min-height: 2em;
-  padding: 1.25em 1.25em 1.25em 48px;
-}
-
-.warning a {
-  color: #980905;
-}
-
-/* a single post */
-
-.post {
-  .content {
-    margin-left: 1em;
-  }
-}
-
-.post h3 {
-  display: inline-block;
-}
-
-.post .permalink {
-  margin-left: 3em;
 }
