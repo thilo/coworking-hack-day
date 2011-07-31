@@ -218,27 +218,40 @@ header h1, header h2 {
 }
 /* line 77, ../src/site.scss */
 header h1 {
+  background: transparent url(/img/chd_logo.png) no-repeat 50% 50%;
+  text-indent: -9999px;
   font-size: 3em;
   margin-bottom: .125em;
   text-transform: uppercase;
   color: #FFF;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 }
-/* line 84, ../src/site.scss */
+/* line 86, ../src/site.scss */
 header h2 {
   font-size: 1.5em;
   margin-bottom: 2em;
   color: #1c2b33;
 }
 
-/* line 91, ../src/site.scss */
+/* line 93, ../src/site.scss */
+footer {
+  padding: 1.5em 0;
+  background: #7abad6 url(/img/chd_bg_blue.png) repeat;
+}
+/* line 96, ../src/site.scss */
+footer p {
+  text-align: right;
+  font-size: .75em;
+}
+
+/* line 102, ../src/site.scss */
 .teaser {
   padding: 0 100px;
   text-align: center;
   font-style: italic;
 }
 
-/* line 97, ../src/site.scss */
+/* line 108, ../src/site.scss */
 nav {
   width: 100%;
   height: 1.5em;
@@ -249,7 +262,7 @@ nav {
   background: #eaeded;
   text-transform: uppercase;
 }
-/* line 106, ../src/site.scss */
+/* line 117, ../src/site.scss */
 nav ul {
   font-size: .75em;
   float: left;
@@ -257,11 +270,11 @@ nav ul {
   padding: 0;
   list-style: none;
 }
-/* line 112, ../src/site.scss */
+/* line 123, ../src/site.scss */
 nav ul li {
   display: inline;
 }
-/* line 116, ../src/site.scss */
+/* line 127, ../src/site.scss */
 nav ul li a,
 nav ul li a:link,
 nav ul li a:visited {
@@ -269,14 +282,14 @@ nav ul li a:visited {
   color: #298cbb;
   text-decoration: none;
 }
-/* line 123, ../src/site.scss */
+/* line 134, ../src/site.scss */
 nav ul li a:hover,
 nav ul li a:active,
 nav ul li a:focus {
   color: #7abad6;
   text-decoration: none;
 }
-/* line 131, ../src/site.scss */
+/* line 142, ../src/site.scss */
 nav a.twitter,
 nav a.twitter:link,
 nav a.twitter:visited {
@@ -288,7 +301,7 @@ nav a.twitter:visited {
   color: #FFF;
   background: #184860;
 }
-/* line 143, ../src/site.scss */
+/* line 154, ../src/site.scss */
 nav a.twitter:hover,
 nav a.twitter:active,
 nav a.twitter:focus {
@@ -297,7 +310,7 @@ nav a.twitter:focus {
 }
 
 /* links */
-/* line 152, ../src/site.scss */
+/* line 163, ../src/site.scss */
 a,
 a:link,
 a:visited {
@@ -305,10 +318,10 @@ a:visited {
   text-decoration: none;
 }
 
-/* line 159, ../src/site.scss */
+/* line 170, ../src/site.scss */
 a:hover,
 a:active,
 a:focus {
   color: #7abad6;
-  text-decoration: underline;
+  text-decoration: none;
 }

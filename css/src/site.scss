@@ -75,6 +75,8 @@ header {
     text-shadow: 0 1px 0 rgba(255,255,255,0.75);
   }
   h1 {
+    background: transparent url(/img/chd_logo.png) no-repeat 50% 50%;
+    text-indent: -9999px;
     font-size: 3em;
     margin-bottom: .125em;
     text-transform: uppercase;
@@ -85,6 +87,15 @@ header {
     font-size: 1.5em;
     margin-bottom: 2em;
     color: $dblue;
+  }
+}
+
+footer {
+  padding: 1.5em 0;
+  background: $lblue url(/img/chd_bg_blue.png) repeat;
+  p {
+    text-align: right;
+    font-size: .75em;
   }
 }
 
@@ -158,5 +169,5 @@ a:hover,
 a:active,
 a:focus {
   color: $lblue;
-  text-decoration: underline;
+  text-decoration: none;
 }
