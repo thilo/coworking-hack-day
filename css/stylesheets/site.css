@@ -92,9 +92,9 @@ h2 {
 }
 
 /* line 29, ../src/site.scss */
-h5 {
+h3, h4 {
   font-size: 1em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 /* line 30, ../src/site.scss */
@@ -162,36 +162,35 @@ body {
 
 /* sans-serif */
 /* line 49, ../src/site.scss */
-h1, h2, h3, h4, nav, aside {
+h1, h2, h3, h4, nav, aside, footer {
   font-family: proxima-nova, Helvetica, Arial, sans-serif;
 }
 
 /* line 53, ../src/site.scss */
 body {
-  border-top: 4px solid #184860;
   font-size: 100%;
   color: #1c2b33;
   background: #eaeded;
 }
 
-/* line 60, ../src/site.scss */
+/* line 59, ../src/site.scss */
 .container {
   width: 750px;
   margin: 0 auto;
   padding: 0 1em;
 }
 
-/* line 66, ../src/site.scss */
+/* line 65, ../src/site.scss */
 header {
   padding: 6em 0 2em 0;
   background: #7abad6 url(/img/chd_bg_blue.png) repeat;
 }
-/* line 69, ../src/site.scss */
+/* line 68, ../src/site.scss */
 header h1, header h2 {
   text-align: center;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
 }
-/* line 73, ../src/site.scss */
+/* line 72, ../src/site.scss */
 header h1 {
   background: transparent url(/img/chd_logo.png) no-repeat 50% 50%;
   text-indent: -9999px;
@@ -201,46 +200,50 @@ header h1 {
   color: #FFF;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 }
-/* line 82, ../src/site.scss */
+/* line 81, ../src/site.scss */
 header h2 {
   font-size: 1.5em;
   margin-bottom: 2em;
   color: #1c2b33;
 }
 
-/* line 89, ../src/site.scss */
+/* line 88, ../src/site.scss */
 footer {
   padding: 1.5em 0;
   background: #7abad6 url(/img/chd_bg_blue.png) repeat;
 }
-/* line 92, ../src/site.scss */
+/* line 91, ../src/site.scss */
 footer p {
   text-align: right;
-  font-size: .75em;
+  font-size: .875em;
+  color: #FFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  font-weight: bold;
 }
 
-/* line 98, ../src/site.scss */
+/* line 100, ../src/site.scss */
 #main {
   overflow: hidden;
   padding-bottom: 4.5em;
 }
 
-/* line 103, ../src/site.scss */
+/* line 105, ../src/site.scss */
 .content {
   width: 360px;
   margin-right: 30px;
   float: left;
 }
-/* line 107, ../src/site.scss */
+/* line 109, ../src/site.scss */
 .content h3 {
   padding-top: 3em;
+  text-transform: uppercase;
 }
-/* line 110, ../src/site.scss */
+/* line 113, ../src/site.scss */
 .content p {
   font-size: .875em;
 }
 
-/* line 115, ../src/site.scss */
+/* line 118, ../src/site.scss */
 aside {
   float: left;
   width: 240px;
@@ -252,14 +255,14 @@ aside {
   -webkit-border-radius: .25em;
   border-radius: .25em;
 }
-/* line 125, ../src/site.scss */
+/* line 128, ../src/site.scss */
 aside ul {
   list-style: none;
   margin: 0 0 1.5em 0;
   padding: 0;
   font-size: .875em;
 }
-/* line 130, ../src/site.scss */
+/* line 133, ../src/site.scss */
 aside ul li {
   overflow: hidden;
   color: #184860;
@@ -267,7 +270,7 @@ aside ul li {
   line-height: 1.25em;
   border-bottom: 1px solid #eaeded;
 }
-/* line 136, ../src/site.scss */
+/* line 139, ../src/site.scss */
 aside ul li span {
   width: 3.2em;
   margin-bottom: .1em;
@@ -275,26 +278,29 @@ aside ul li span {
   float: left;
 }
 
-/* line 146, ../src/site.scss */
+/* line 149, ../src/site.scss */
 .teaser {
   padding: 0 100px;
   text-align: center;
   font-style: italic;
 }
 
-/* line 152, ../src/site.scss */
+/* line 155, ../src/site.scss */
 nav {
   width: 100%;
   height: 1.5em;
   line-height: 2;
   position: fixed;
-  top: 4px;
+  top: 0;
   margin-bottom: 2em;
   background: #eaeded;
   text-transform: uppercase;
   font-weight: bold;
+  letter-spacing: .01em;
+  border-top: 4px solid #184860;
+  border-bottom: 1px solid #7abad6;
 }
-/* line 162, ../src/site.scss */
+/* line 168, ../src/site.scss */
 nav ul {
   font-size: .75em;
   float: left;
@@ -302,11 +308,11 @@ nav ul {
   padding: 0;
   list-style: none;
 }
-/* line 168, ../src/site.scss */
+/* line 174, ../src/site.scss */
 nav ul li {
   display: inline;
 }
-/* line 172, ../src/site.scss */
+/* line 178, ../src/site.scss */
 nav ul li a,
 nav ul li a:link,
 nav ul li a:visited {
@@ -314,14 +320,14 @@ nav ul li a:visited {
   color: #298cbb;
   text-decoration: none;
 }
-/* line 179, ../src/site.scss */
+/* line 185, ../src/site.scss */
 nav ul li a:hover,
 nav ul li a:active,
 nav ul li a:focus {
   color: #7abad6;
   text-decoration: none;
 }
-/* line 187, ../src/site.scss */
+/* line 193, ../src/site.scss */
 nav a.twitter,
 nav a.twitter:link,
 nav a.twitter:visited {
@@ -333,7 +339,7 @@ nav a.twitter:visited {
   color: #FFF;
   background: #184860;
 }
-/* line 199, ../src/site.scss */
+/* line 205, ../src/site.scss */
 nav a.twitter:hover,
 nav a.twitter:active,
 nav a.twitter:focus {
@@ -342,7 +348,7 @@ nav a.twitter:focus {
 }
 
 /* links */
-/* line 208, ../src/site.scss */
+/* line 214, ../src/site.scss */
 a,
 a:link,
 a:visited {
@@ -350,7 +356,7 @@ a:visited {
   text-decoration: none;
 }
 
-/* line 215, ../src/site.scss */
+/* line 221, ../src/site.scss */
 a:hover,
 a:active,
 a:focus {
