@@ -4,7 +4,7 @@ layout: default
 
 ### About
 
-One weekend of Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+CoHackDay is just around the corner! Let's get together to share our ideas, think of new ones, and teach and learn from each other. Maybe you have a project of your own that you want or need help with, a suggestion for something that would make co.up better or more beautiful, or just want to come hang out to watch, learn something new, and get your hands dirty for the first time. We're hoping for a diverse crowd with varied interests, whether that be crafting, lighting, art, hardware, photos, webstuff, arduino, making mate, or anything else you love. Everyone, no matter what their skill level might be, is invited to participate!
 
 Check out our <em>schedule</em> to get an idea of what you can expect.
 
