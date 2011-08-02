@@ -23,7 +23,7 @@ You can use <a>Facebook</a>, <a>Plancast</a> and <a>Lanyrd</a> to RSVP.
 <address>
   <p>
     co.up Coworking Space<br />
-    Adalbertstraße 8<br />
+    Adalbertstraße 7-8<br />
     10999 Berlin
   </p>
 </address>
