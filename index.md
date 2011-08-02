@@ -12,7 +12,7 @@ Check out our <em>schedule</em> to get an idea of what you can expect.
 
 Join us and submit your idea now: new concepts and ideas, new hardware or software to make our office or any other space cooler — whatever you can think of that would make coworking more enjoyable, this is the time to try it.
 
-We collect your submissions in our <a href="#">wiki</a>. That’s also the place to find co-hackers, or if check out all planned projects if you haven’t come up with you own idea yet.
+We collect your submissions in our <a href="http://coworkinghackday.wikispaces.com/">wiki</a>. That’s also the place to find co-hackers, or if check out all planned projects if you haven’t come up with you own idea yet.
 
 You can use <a>Facebook</a>, <a>Plancast</a> and <a>Lanyrd</a> to RSVP.
 
