@@ -10,7 +10,7 @@ CoHackDay is just around the corner! Let's get together to share our ideas, thin
 
 Want to join us? Submit your project now: new concepts and ideas, hardware or software to make our office or any other space cooler, modifications to lighting, furniture, space and schedule organization, etc. Whatever you can think of that would make coworking more enjoyable, this is the time to try it.
 
-We’ll collect your submissions in our <a href="http://coworkinghackday.wikispaces.com/">wiki</a> - the place to find co-hackers, or if check out all planned projects if you haven’t come up with your own idea yet.
+We’ll collect your submissions in our <a href="http://coworkinghackday.wikispaces.com/">wiki</a> - the place to find co-hackers or check out all planned projects if you haven’t come up with your own idea yet.
 
 You can use <a href="http://www.facebook.com/event.php?eid=198975240159373" title="CoHackDay on Facebook">Facebook</a> and <a href="http://plancast.com/p/6ps4" title="CoHackDay on Plancast">Plancast</a> to RSVP.
 
