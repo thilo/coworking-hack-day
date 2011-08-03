@@ -26,8 +26,10 @@ You can use <a href="http://www.facebook.com/event.php?eid=198975240159373" titl
   </p>
 </address>
 
-<p>Bus: Adalbertstraße/Oranienstraße<br />
-<p>U-Bahn: Kottbusser-Tor, U8, U1</p>
+<p>
+  Bus: Adalbertstraße/Oranienstraße<br />
+  U-Bahn: Kottbusser-Tor, U8, U1
+</p>
 
 <p>
   <img alt="Map" src="http://maps.google.com/maps/api/staticmap?center=52.500506,13.418744&amp;zoom=16&amp;markers=52.500506,13.418744&amp;size=360x300&amp;sensor=true&amp;key=ABQIAAAAbs4qD32K84SgIB5dec75sBTzTsHHdqOtRvUzkbUtDLLb_O27dBT8DyDzl30mBd6ZUlnl9-nzDbCMaA">

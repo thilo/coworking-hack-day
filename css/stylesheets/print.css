@@ -1,0 +1,47 @@
+/* line 1, ../src/print.scss */
+body {
+  line-height: 1.5;
+  color: #000;
+  background: none;
+  font-size: 10pt;
+}
+
+/* line 7, ../src/print.scss */
+.container {
+  background: none;
+}
+
+/* line 10, ../src/print.scss */
+a img {
+  border: none;
+}
+
+/* line 13, ../src/print.scss */
+a:link, a:visited {
+  background: transparent;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* line 19, ../src/print.scss */
+a:link:after, a:visited:after {
+  content: " (" attr(href) ")";
+  font-size: 90%;
+}
+
+/* line 23, ../src/print.scss */
+nav {
+  display: none;
+}
+
+/* line 26, ../src/print.scss */
+header h1 {
+  text-indent: 0;
+  background: none;
+  color: #000;
+}
+
+/* line 32, ../src/print.scss */
+.content h3 {
+  padding-top: 0;
+}

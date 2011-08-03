@@ -1,0 +1,29 @@
+/* line 1, ../src/ie.scss */
+body {
+  text-align: center;
+}
+
+/* line 2, ../src/ie.scss */
+.container {
+  text-align: left;
+}
+
+/* line 3, ../src/ie.scss */
+hr {
+  margin: -8px auto 11px;
+}
+
+/* line 4, ../src/ie.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 5, ../src/ie.scss */
+.clearfix, .container {
+  display: inline-block;
+}
+
+/* line 6, ../src/ie.scss */
+* html .clearfix, * html .container {
+  height: 1%;
+}
