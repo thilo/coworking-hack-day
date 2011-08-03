@@ -38,9 +38,3 @@ You can use <a>Facebook</a>, <a>Plancast</a> and <a>Lanyrd</a> to RSVP.
 <p>
   <a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Adalbertstra%C3%9Fe+8,+10999+Berlin,+Germany&amp;sll=52.523405,13.4114&amp;sspn=0.91245,1.853943&amp;ie=UTF8&amp;hq=&amp;hnear=Adalbertstra%C3%9Fe+8,+Kreuzberg+10999+Berlin,+Germany&amp;ll=52.500797,13.419929&amp;spn=0.004572,0.010836&amp;z=16&amp;iwloc=A">View Larger Map</a>
 </p>
-
-### Contact
-
-<p>To keep up to date, follow our twitter account <a href="http://twitter.com/cohackday" title="twitter.com/cohackday">@cohackday</a>. The hashtag is <em>#cohackday</em>.</p>
-
-<p>Want to get involved in the organization or have any other questions? Drop us a line at <a href="mailto:#">lorem12345@ipsum.de</a></p>
