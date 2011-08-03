@@ -1,13 +1,13 @@
 /* reset */
 /* reset.css */
-/* line 12, ../src/site.scss */
+/* line 13, ../src/site.scss */
 html {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-/* line 13, ../src/site.scss */
+/* line 14, ../src/site.scss */
 body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
   margin: 0;
   padding: 0;
@@ -17,180 +17,180 @@ body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
   vertical-align: baseline;
 }
 
-/* line 14, ../src/site.scss */
+/* line 15, ../src/site.scss */
 article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 15, ../src/site.scss */
+/* line 16, ../src/site.scss */
 body {
   line-height: 1.5;
   background: white;
 }
 
-/* line 16, ../src/site.scss */
+/* line 17, ../src/site.scss */
 table {
   border-collapse: separate;
   border-spacing: 0;
 }
 
-/* line 17, ../src/site.scss */
+/* line 18, ../src/site.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   float: none !important;
 }
 
-/* line 18, ../src/site.scss */
+/* line 19, ../src/site.scss */
 table, th, td {
   vertical-align: middle;
 }
 
-/* line 19, ../src/site.scss */
+/* line 20, ../src/site.scss */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
 }
 
-/* line 20, ../src/site.scss */
+/* line 21, ../src/site.scss */
 blockquote, q {
   quotes: "" "";
 }
 
-/* line 21, ../src/site.scss */
+/* line 22, ../src/site.scss */
 a img {
   border: none;
 }
 
-/* line 22, ../src/site.scss */
+/* line 23, ../src/site.scss */
 :focus {
   outline: 0;
 }
 
 /* typography.css */
-/* line 25, ../src/site.scss */
+/* line 26, ../src/site.scss */
 html {
   font-size: 100.01%;
 }
 
-/* line 26, ../src/site.scss */
+/* line 27, ../src/site.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   color: #184860;
 }
 
-/* line 27, ../src/site.scss */
+/* line 28, ../src/site.scss */
 h1 {
   font-size: 3em;
   line-height: 1;
   margin-bottom: 0.5em;
 }
 
-/* line 28, ../src/site.scss */
+/* line 29, ../src/site.scss */
 h2 {
   font-size: 2em;
   margin-bottom: 0.75em;
 }
 
-/* line 29, ../src/site.scss */
+/* line 30, ../src/site.scss */
 h3, h4 {
   font-size: 1em;
   margin-bottom: 1em;
 }
 
-/* line 30, ../src/site.scss */
+/* line 31, ../src/site.scss */
 p {
   margin: 0 0 1.5em;
 }
 
-/* line 31, ../src/site.scss */
+/* line 32, ../src/site.scss */
 strong, dfn {
   font-weight: bold;
 }
 
-/* line 32, ../src/site.scss */
+/* line 33, ../src/site.scss */
 em, dfn {
   font-style: italic;
 }
 
-/* line 33, ../src/site.scss */
+/* line 34, ../src/site.scss */
 address {
   margin: 0 0 1.5em;
   font-style: italic;
 }
 
-/* line 34, ../src/site.scss */
+/* line 35, ../src/site.scss */
 li ul, li ol {
   margin: 0;
 }
 
-/* line 35, ../src/site.scss */
+/* line 36, ../src/site.scss */
 ul, ol {
   margin: 0 1.5em 1.5em 0;
   padding-left: 1.5em;
 }
 
-/* line 36, ../src/site.scss */
+/* line 37, ../src/site.scss */
 ul {
   list-style-type: disc;
 }
 
-/* line 37, ../src/site.scss */
+/* line 38, ../src/site.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 38, ../src/site.scss */
+/* line 39, ../src/site.scss */
 dl {
   margin: 0 0 1.5em 0;
 }
 
-/* line 39, ../src/site.scss */
+/* line 40, ../src/site.scss */
 dl dt {
   font-weight: bold;
 }
 
-/* line 40, ../src/site.scss */
+/* line 41, ../src/site.scss */
 dd {
   margin-left: 1.5em;
 }
 
 /* serif */
-/* line 43, ../src/site.scss */
+/* line 44, ../src/site.scss */
 body {
   font-family: Georgia, Times, serif;
 }
 
 /* sans-serif */
-/* line 49, ../src/site.scss */
-h1, h2, h3, h4, nav, aside, footer {
+/* line 50, ../src/site.scss */
+h1, h2, h3, h4, nav, aside, footer, .sponsors {
   font-family: proxima-nova, Helvetica, Arial, sans-serif;
 }
 
-/* line 53, ../src/site.scss */
+/* line 54, ../src/site.scss */
 body {
   font-size: 100%;
   color: #1c2b33;
   background: #eaeded;
 }
 
-/* line 59, ../src/site.scss */
+/* line 60, ../src/site.scss */
 .container {
   width: 750px;
   margin: 0 auto;
   padding: 0 1em;
 }
 
-/* line 65, ../src/site.scss */
+/* line 66, ../src/site.scss */
 header {
   padding: 6em 0 2em 0;
   background: #7abad6 url(/img/chd_bg_blue.png) repeat;
 }
-/* line 68, ../src/site.scss */
+/* line 69, ../src/site.scss */
 header h1, header h2 {
   text-align: center;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
 }
-/* line 72, ../src/site.scss */
+/* line 73, ../src/site.scss */
 header h1 {
   background: transparent url(/img/chd_logo.png) no-repeat 50% 50%;
   text-indent: -9999px;
@@ -200,50 +200,51 @@ header h1 {
   color: #FFF;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 }
-/* line 81, ../src/site.scss */
+/* line 82, ../src/site.scss */
 header h2 {
   font-size: 1.5em;
   margin-bottom: 2em;
   color: #1c2b33;
 }
 
-/* line 88, ../src/site.scss */
+/* line 89, ../src/site.scss */
 footer {
   padding: 1.5em 0;
   background: #7abad6 url(/img/chd_bg_blue.png) repeat;
 }
-/* line 91, ../src/site.scss */
+/* line 92, ../src/site.scss */
 footer p {
-  text-align: right;
+  text-align: center;
   font-size: .875em;
   color: #FFF;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
   font-weight: bold;
+  margin-bottom: 0;
 }
 
-/* line 100, ../src/site.scss */
+/* line 102, ../src/site.scss */
 #main {
   overflow: hidden;
   padding-bottom: 4.5em;
 }
 
-/* line 105, ../src/site.scss */
+/* line 107, ../src/site.scss */
 .content {
   width: 360px;
   margin-right: 30px;
   float: left;
 }
-/* line 109, ../src/site.scss */
+/* line 111, ../src/site.scss */
 .content h3 {
   padding-top: 3em;
   text-transform: uppercase;
 }
-/* line 113, ../src/site.scss */
+/* line 115, ../src/site.scss */
 .content p {
   font-size: .875em;
 }
 
-/* line 118, ../src/site.scss */
+/* line 120, ../src/site.scss */
 aside {
   float: left;
   width: 240px;
@@ -255,18 +256,18 @@ aside {
   -webkit-border-radius: .25em;
   border-radius: .25em;
 }
-/* line 128, ../src/site.scss */
+/* line 130, ../src/site.scss */
 aside p {
   font-size: .875em;
 }
-/* line 131, ../src/site.scss */
+/* line 133, ../src/site.scss */
 aside ul {
   list-style: none;
   margin: 0 0 1.5em 0;
   padding: 0;
   font-size: .875em;
 }
-/* line 136, ../src/site.scss */
+/* line 138, ../src/site.scss */
 aside ul li {
   overflow: hidden;
   color: #184860;
@@ -274,7 +275,7 @@ aside ul li {
   line-height: 1.25em;
   border-bottom: 1px solid #eaeded;
 }
-/* line 142, ../src/site.scss */
+/* line 144, ../src/site.scss */
 aside ul li span {
   width: 3.2em;
   margin-bottom: .1em;
@@ -282,14 +283,14 @@ aside ul li span {
   float: left;
 }
 
-/* line 152, ../src/site.scss */
+/* line 154, ../src/site.scss */
 .teaser {
   padding: 0 100px;
   text-align: center;
   font-style: italic;
 }
 
-/* line 158, ../src/site.scss */
+/* line 160, ../src/site.scss */
 nav {
   width: 100%;
   height: 1.5em;
@@ -304,7 +305,7 @@ nav {
   border-top: 4px solid #184860;
   border-bottom: 1px solid #7abad6;
 }
-/* line 171, ../src/site.scss */
+/* line 173, ../src/site.scss */
 nav ul {
   font-size: .75em;
   float: left;
@@ -312,11 +313,11 @@ nav ul {
   padding: 0;
   list-style: none;
 }
-/* line 177, ../src/site.scss */
+/* line 179, ../src/site.scss */
 nav ul li {
   display: inline;
 }
-/* line 181, ../src/site.scss */
+/* line 183, ../src/site.scss */
 nav ul li a,
 nav ul li a:link,
 nav ul li a:visited {
@@ -324,14 +325,14 @@ nav ul li a:visited {
   color: #298cbb;
   text-decoration: none;
 }
-/* line 188, ../src/site.scss */
+/* line 190, ../src/site.scss */
 nav ul li a:hover,
 nav ul li a:active,
 nav ul li a:focus {
   color: #7abad6;
   text-decoration: none;
 }
-/* line 196, ../src/site.scss */
+/* line 198, ../src/site.scss */
 nav a.twitter,
 nav a.twitter:link,
 nav a.twitter:visited {
@@ -343,7 +344,7 @@ nav a.twitter:visited {
   color: #FFF;
   background: #184860;
 }
-/* line 208, ../src/site.scss */
+/* line 210, ../src/site.scss */
 nav a.twitter:hover,
 nav a.twitter:active,
 nav a.twitter:focus {
@@ -351,8 +352,40 @@ nav a.twitter:focus {
   background: #298cbb;
 }
 
+/* line 216, ../src/site.scss */
+.sponsors {
+  padding: 3em 0 4.5em 0;
+  background: #f8f9f9 url(/img/chd_bg_white.png) repeat;
+}
+/* line 219, ../src/site.scss */
+.sponsors h3 {
+  text-align: center;
+  margin-bottom: 3em;
+}
+/* line 223, ../src/site.scss */
+.sponsors ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+/* line 228, ../src/site.scss */
+.sponsors ul li {
+  display: block;
+  float: left;
+  width: 100px;
+  margin-right: 30px;
+}
+/* line 234, ../src/site.scss */
+.sponsors ul .sponsor_contact {
+  width: 390px;
+  margin-right: 0;
+  padding: 2em 0 0 100px;
+  font-size: .875em;
+}
+
 /* links */
-/* line 217, ../src/site.scss */
+/* line 246, ../src/site.scss */
 a,
 a:link,
 a:visited {
@@ -360,7 +393,7 @@ a:visited {
   text-decoration: none;
 }
 
-/* line 224, ../src/site.scss */
+/* line 253, ../src/site.scss */
 a:hover,
 a:active,
 a:focus {

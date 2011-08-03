@@ -16,7 +16,7 @@ You can use <a href="http://www.facebook.com/event.php?eid=198975240159373" titl
 
 ### Location
 
-<p>The event is hosted by the co.up Coworking space, which is located right in the heart of Berlin-Kreuzberg. You can find us in the second building on the right, 5th floor.</p>
+<p>The event is hosted by the <a href="http://co-up.de/" title="co.up coworking space">co.up coworking space</a>, which is located right in the heart of Berlin-Kreuzberg. You can find us in the second building on the right, 5th floor.</p>
 
 <address>
   <p>

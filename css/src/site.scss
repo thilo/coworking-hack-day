@@ -5,6 +5,7 @@ $mblue: #298CBB;
 $vlblue: #EAEDED;
 $red: red;
 $lred: orange;
+$ow: #F8F9F9;
 
 /* reset */
 
@@ -46,7 +47,7 @@ body {
 
 
 /* sans-serif */
-h1, h2, h3, h4, nav, aside, footer {
+h1, h2, h3, h4, nav, aside, footer, .sponsors {
   font-family: proxima-nova, Helvetica, Arial, sans-serif;
 }
 
@@ -89,11 +90,12 @@ footer {
   padding: 1.5em 0;
   background: $lblue url(/img/chd_bg_blue.png) repeat;
   p {
-    text-align: right;
+    text-align: center;
     font-size: .875em;
     color: #FFF;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
     font-weight: bold;
+    margin-bottom: 0;
   }
 }
 
@@ -208,6 +210,33 @@ nav {
   a.twitter:focus {
     color: #FFF;
     background: $mblue;
+  }
+}
+
+.sponsors {
+  padding: 3em 0 4.5em 0;
+  background: $ow url(/img/chd_bg_white.png) repeat;
+  h3 {
+    text-align: center;
+    margin-bottom: 3em;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    li {
+      display: block;
+      float: left;
+      width: 100px;
+      margin-right: 30px;
+    }
+    .sponsor_contact {
+      width: 390px;
+      margin-right: 0;
+      padding: 2em 0 0 100px;
+      font-size: .875em;
+    }
   }
 }
 

@@ -2,7 +2,7 @@
 
 <p>To keep up to date, follow our twitter account <a href="http://twitter.com/cohackday" title="twitter.com/cohackday">@cohackday</a>. The hashtag is <em>#cohackday</em>.</p>
 
-<p>Want to get involved in the organization or have any other questions? Drop us a line at <a href="mailto:#">lorem12345@ipsum.de</a></p>
+<p>Want to get involved in the organization or have any other questions? Drop us a line at <a href="mailto:cohackday@co-up.de">cohackday@co-up.de</a></p>
 
 
 <h4>Schedule - Saturday, Aug 27</h4>
@@ -10,7 +10,7 @@
 <ul>
   <li><span>13:00</span> Welcome &amp; Introduction</li>
   <li><span>13:30</span> Hacking begins</li>
-  <li>Workshops and catering tba soon</li>
+  <li><i>- Workshops and catering tba soon -</i></li>
   <li><span>later</span> Hacking continues all night</li>
 </ul>
 
