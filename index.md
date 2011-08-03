@@ -6,15 +6,13 @@ layout: default
 
 CoHackDay is just around the corner! Let's get together to share our ideas, think of new ones, and teach and learn from each other. Maybe you have a project of your own that you want or need help with, a suggestion for something that would make co.up better or more beautiful, or just want to come hang out to watch, learn something new, and get your hands dirty for the first time. We’re hoping for a diverse crowd with varied interests, whether that be crafting, lighting, art, hardware, photos, webstuff, arduino, making mate, or anything else you love. Everyone, no matter what their skill level might be, is invited to participate!
 
-Check out our <em>schedule</em> to get an idea of what you can expect.
-
 ### Projects and RSVP
 
 Want to join us? Submit your project now: new concepts and ideas, hardware or software to make our office or any other space cooler, modifications to lighting, furniture, space and schedule organization, etc. Whatever you can think of that would make coworking more enjoyable, this is the time to try it.
 
 We’ll collect your submissions in our <a href="http://coworkinghackday.wikispaces.com/">wiki</a> - the place to find co-hackers, or if check out all planned projects if you haven’t come up with your own idea yet.
 
-You can use <a>Facebook</a>, <a>Plancast</a> and <a>Lanyrd</a> to RSVP.
+You can use <a href="http://www.facebook.com/event.php?eid=198975240159373" title="CoHackDay on Facebook">Facebook</a> and <a href="http://www.facebook.com/event.php?eid=198975240159373" title="CoHackDay on Plancast">Plancast</a> to RSVP.
 
 ### Location
 
@@ -28,11 +26,11 @@ You can use <a>Facebook</a>, <a>Plancast</a> and <a>Lanyrd</a> to RSVP.
   </p>
 </address>
 
-<p>Bus: Adalbertstraße/Oranienstraße</p>
+<p>Bus: Adalbertstraße/Oranienstraße<br />
 <p>U-Bahn: Kottbusser-Tor, U8, U1</p>
 
 <p>
-  <img alt="Map" src="http://maps.google.com/maps/api/staticmap?center=52.500506,13.418744&amp;zoom=16&amp;markers=52.500506,13.418744&amp;size=480x300&amp;sensor=true&amp;key=ABQIAAAAbs4qD32K84SgIB5dec75sBTzTsHHdqOtRvUzkbUtDLLb_O27dBT8DyDzl30mBd6ZUlnl9-nzDbCMaA">
+  <img alt="Map" src="http://maps.google.com/maps/api/staticmap?center=52.500506,13.418744&amp;zoom=16&amp;markers=52.500506,13.418744&amp;size=360x300&amp;sensor=true&amp;key=ABQIAAAAbs4qD32K84SgIB5dec75sBTzTsHHdqOtRvUzkbUtDLLb_O27dBT8DyDzl30mBd6ZUlnl9-nzDbCMaA">
 </p>
 
 <p>
