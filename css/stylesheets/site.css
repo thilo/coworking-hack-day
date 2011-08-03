@@ -359,24 +359,23 @@ nav a.twitter:focus {
 }
 /* line 219, ../src/site.scss */
 .sponsors h3 {
-  text-align: center;
   margin-bottom: 3em;
 }
-/* line 223, ../src/site.scss */
+/* line 222, ../src/site.scss */
 .sponsors ul {
   margin: 0;
   padding: 0;
   list-style: none;
   overflow: hidden;
 }
-/* line 228, ../src/site.scss */
+/* line 227, ../src/site.scss */
 .sponsors ul li {
   display: block;
   float: left;
   width: 100px;
   margin-right: 30px;
 }
-/* line 234, ../src/site.scss */
+/* line 233, ../src/site.scss */
 .sponsors ul .sponsor_contact {
   width: 390px;
   margin-right: 0;
@@ -385,7 +384,7 @@ nav a.twitter:focus {
 }
 
 /* links */
-/* line 246, ../src/site.scss */
+/* line 245, ../src/site.scss */
 a,
 a:link,
 a:visited {
@@ -393,7 +392,7 @@ a:visited {
   text-decoration: none;
 }
 
-/* line 253, ../src/site.scss */
+/* line 252, ../src/site.scss */
 a:hover,
 a:active,
 a:focus {
