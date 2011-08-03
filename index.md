@@ -12,11 +12,11 @@ Want to join us? Submit your project now: new concepts and ideas, hardware or so
 
 We’ll collect your submissions in our <a href="http://coworkinghackday.wikispaces.com/">wiki</a> - the place to find co-hackers, or if check out all planned projects if you haven’t come up with your own idea yet.
 
-You can use <a href="http://www.facebook.com/event.php?eid=198975240159373" title="CoHackDay on Facebook">Facebook</a> and <a href="http://www.facebook.com/event.php?eid=198975240159373" title="CoHackDay on Plancast">Plancast</a> to RSVP.
+You can use <a href="http://www.facebook.com/event.php?eid=198975240159373" title="CoHackDay on Facebook">Facebook</a> and <a href="http://plancast.com/p/6ps4" title="CoHackDay on Plancast">Plancast</a> to RSVP.
 
 ### Location
 
-<p>The event is hosted by the <a href="http://co-up.de/" title="co.up coworking space">co.up coworking space</a>, which is located right in the heart of Berlin-Kreuzberg. You can find us in the second building on the right, 5th floor.</p>
+<p>The event is hosted by the <a href="http://co-up.de/" title="co.up coworking space">co.up coworking space</a>, which is right in the heart of Berlin-Kreuzberg. Our building is located at the far end of the courtyard. Enter the first tunnel to your right and push the Upstream/Co.up buzzer by the door to your left. Then head all the way up to the top floor, into the door on the right.</p>
 
 <address>
   <p>
@@ -28,7 +28,7 @@ You can use <a href="http://www.facebook.com/event.php?eid=198975240159373" titl
 
 <p>
   Bus: Adalbertstraße/Oranienstraße<br />
-  U-Bahn: Kottbusser-Tor, U8, U1
+  U-Bahn: Kottbusser Tor, U1/U8
 </p>
 
 <p>
