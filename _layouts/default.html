@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="/css/stylesheets/site.css" type="text/css" />
     <link rel="stylesheet" href="/css/stylesheets/print.css" type="text/css" media="print">
     <!--[if lt IE 8]><link rel="stylesheet" href="/css/stylesheets/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <script type="text/javascript" src="http://use.typekit.com/dhw8otl.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
 
   <body>
-      <nav id="nav">
+      <nav class="nav">
         <div class="container">
           <a href="http://twitter.com/cohackday" title="twitter.com/cohackday" class="twitter">Twitter</a>
 
@@ -27,7 +30,7 @@
         </div>
       </nav>
 
-      <header id="header">
+      <header class="header">
         <div class="container">
           <h1>Coworking Hack Day</h1>
           <h2>Berlin, August 27-28, 2011</h2>
@@ -45,7 +48,7 @@
             {{ content }}
           </div>
 
-          <aside>
+          <aside class="aside">
             {% include sidebar.md %}
           </aside>
 
@@ -63,7 +66,7 @@
       </div>
     </div>
 
-    <footer>
+    <footer class="footer">
       <div class="container">
         <p>&copy; co.up Coworking Space 2011</p>
       </div>

@@ -162,7 +162,7 @@ body {
 
 /* sans-serif */
 /* line 50, ../src/site.scss */
-h1, h2, h3, h4, nav, aside, footer, .sponsors {
+h1, h2, h3, h4, nav, .aside, .footer, .sponsors {
   font-family: proxima-nova, Helvetica, Arial, sans-serif;
 }
 
@@ -181,17 +181,17 @@ body {
 }
 
 /* line 66, ../src/site.scss */
-header {
+.header {
   padding: 6em 0 2em 0;
   background: #7abad6 url(/img/chd_bg_blue.png) repeat;
 }
 /* line 69, ../src/site.scss */
-header h1, header h2 {
+.header h1, .header h2 {
   text-align: center;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
 }
 /* line 73, ../src/site.scss */
-header h1 {
+.header h1 {
   background: transparent url(/img/chd_logo.png) no-repeat 50% 50%;
   text-indent: -9999px;
   font-size: 3em;
@@ -201,19 +201,19 @@ header h1 {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 }
 /* line 82, ../src/site.scss */
-header h2 {
+.header h2 {
   font-size: 1.5em;
   margin-bottom: 2em;
   color: #1c2b33;
 }
 
 /* line 89, ../src/site.scss */
-footer {
+.footer {
   padding: 1.5em 0;
   background: #7abad6 url(/img/chd_bg_blue.png) repeat;
 }
 /* line 92, ../src/site.scss */
-footer p {
+.footer p {
   text-align: center;
   font-size: .875em;
   color: #FFF;
@@ -245,7 +245,7 @@ footer p {
 }
 
 /* line 120, ../src/site.scss */
-aside {
+.aside {
   float: left;
   width: 240px;
   margin-top: 3em;
@@ -257,18 +257,18 @@ aside {
   border-radius: .25em;
 }
 /* line 130, ../src/site.scss */
-aside p {
+.aside p {
   font-size: .875em;
 }
 /* line 133, ../src/site.scss */
-aside ul {
+.aside ul {
   list-style: none;
   margin: 0 0 1.5em 0;
   padding: 0;
   font-size: .875em;
 }
 /* line 138, ../src/site.scss */
-aside ul li {
+.aside ul li {
   overflow: hidden;
   color: #184860;
   margin-bottom: .5em;
@@ -276,7 +276,7 @@ aside ul li {
   border-bottom: 1px solid #eaeded;
 }
 /* line 144, ../src/site.scss */
-aside ul li span {
+.aside ul li span {
   width: 3.2em;
   margin-bottom: .1em;
   color: #999;
@@ -291,7 +291,7 @@ aside ul li span {
 }
 
 /* line 160, ../src/site.scss */
-nav {
+.nav {
   width: 100%;
   height: 1.5em;
   line-height: 2;
@@ -306,7 +306,7 @@ nav {
   border-bottom: 1px solid #7abad6;
 }
 /* line 173, ../src/site.scss */
-nav ul {
+.nav ul {
   font-size: .75em;
   float: left;
   margin: 0;
@@ -314,28 +314,28 @@ nav ul {
   list-style: none;
 }
 /* line 179, ../src/site.scss */
-nav ul li {
+.nav ul li {
   display: inline;
 }
 /* line 183, ../src/site.scss */
-nav ul li a,
-nav ul li a:link,
-nav ul li a:visited {
+.nav ul li a,
+.nav ul li a:link,
+.nav ul li a:visited {
   padding: 0 1.5em 0 0;
   color: #298cbb;
   text-decoration: none;
 }
 /* line 190, ../src/site.scss */
-nav ul li a:hover,
-nav ul li a:active,
-nav ul li a:focus {
+.nav ul li a:hover,
+.nav ul li a:active,
+.nav ul li a:focus {
   color: #7abad6;
   text-decoration: none;
 }
 /* line 198, ../src/site.scss */
-nav a.twitter,
-nav a.twitter:link,
-nav a.twitter:visited {
+.nav a.twitter,
+.nav a.twitter:link,
+.nav a.twitter:visited {
   width: 100px;
   display: block;
   font-size: .75em;
@@ -345,9 +345,9 @@ nav a.twitter:visited {
   background: #184860;
 }
 /* line 210, ../src/site.scss */
-nav a.twitter:hover,
-nav a.twitter:active,
-nav a.twitter:focus {
+.nav a.twitter:hover,
+.nav a.twitter:active,
+.nav a.twitter:focus {
   color: #FFF;
   background: #298cbb;
 }
