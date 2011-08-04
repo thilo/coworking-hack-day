@@ -58,13 +58,14 @@ body {
 }
 
 .container {
-  width: 750px;
+  max-width: 750px;
+  width: auto;
   margin: 0 auto;
-  padding: 0 1em;
+  padding: 0 20px;
 }
 
 .header {
-  padding: 6em 0 2em 0;
+  padding: 4.5em 0 2em 0;
   background: $lblue url(/img/chd_bg_blue.png) repeat;
   h1, h2 {
     text-align: center;
@@ -105,8 +106,8 @@ body {
 }
 
 .content {
-  width: 360px;
-  margin-right: 30px;
+  width: 50%;
+  margin-right: 14%;
   float: left;
   h3 {
     padding-top: 3em;
@@ -119,10 +120,9 @@ body {
 
 .aside {
   float: left;
-  width: 240px;
+  width: 32%;
   margin-top: 3em;
-  margin-left: 100px;
-  padding: 0 10px;
+  padding: 0 1%;
   background: #FFF;
   -moz-border-radius: .25em;
   -webkit-border-radius: .25em;
@@ -158,12 +158,10 @@ body {
 }
 
 .nav {
-  width: 100%;
   height: 1.5em;
   line-height: 2;
-  position: fixed;
   top: 0;
-  margin-bottom: 2em;
+  margin-bottom: 0;
   background: $vlblue;
   text-transform: uppercase;
   font-weight: bold;
@@ -269,8 +267,8 @@ a:focus {
   }
 }
 
-a.btn_link, 
-a.btn_link:link, 
+a.btn_link,
+a.btn_link:link,
 a.btn_link:visited {
   color: $ow;
   display: inline-block;
@@ -282,9 +280,41 @@ a.btn_link:visited {
   border-radius: 4px;
 }
 
-a.btn_link:hover, 
-a.btn_link:active, 
+a.btn_link:hover,
+a.btn_link:active,
 a.btn_link:focus {
   color: #FFF;
   background: $mblue;
+}
+
+
+
+@media screen and (max-device-width:660px), screen and (max-width:660px) {
+
+  body {
+    -webkit-text-size-adjust: 300%;
+  }
+
+  .container {
+    max-width: 750px;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+
+  .content {
+    width: auto;
+    margin-right: 0;
+    float: none;
+  }
+
+  .aside {
+    float: none;
+    width: auto;
+  }
+  .teaser {
+    padding: 0;
+  }
+
 }
