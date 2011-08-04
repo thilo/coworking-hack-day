@@ -152,7 +152,7 @@ body {
 }
 
 .teaser {
-  padding: 0 100px;
+  padding: 0 90px;
   text-align: center;
   font-style: italic;
 }
@@ -194,7 +194,7 @@ body {
   a.twitter,
   a.twitter:link,
   a.twitter:visited {
-    width: 100px;
+    width: 80px;
     display: block;
     font-size: .75em;
     float: right;
@@ -292,16 +292,15 @@ a.btn_link:focus {
 @media screen and (max-device-width:660px), screen and (max-width:660px) {
 
   body {
-    -webkit-text-size-adjust: 300%;
+    -webkit-text-size-adjust: 200%;
   }
-
+  
   .container {
     max-width: 750px;
     width: auto;
     margin: 0 auto;
     padding: 0 20px;
   }
-
 
   .content {
     width: auto;
@@ -317,4 +316,13 @@ a.btn_link:focus {
     padding: 0;
   }
 
+}
+
+
+@media screen and (max-device-width:360px),screen and (max-width:360px) {
+
+  .nav {
+    display: none;
+  }
+  
 }
