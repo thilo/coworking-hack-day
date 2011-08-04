@@ -413,3 +413,25 @@ a:focus {
 .footer a:focus {
   color: #1c2b33;
 }
+
+/* line 274, ../src/site.scss */
+a.btn_link,
+a.btn_link:link,
+a.btn_link:visited {
+  color: #f8f9f9;
+  display: inline-block;
+  margin-top: .75em;
+  padding: .1em 1em;
+  background: #184860;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 287, ../src/site.scss */
+a.btn_link:hover,
+a.btn_link:active,
+a.btn_link:focus {
+  color: #FFF;
+  background: #298cbb;
+}
