@@ -399,3 +399,17 @@ a:focus {
   color: #7abad6;
   text-decoration: none;
 }
+
+/* line 260, ../src/site.scss */
+.footer a,
+.footer a:link,
+.footer a:visited {
+  color: #184860;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+/* line 267, ../src/site.scss */
+.footer a:hover,
+.footer a:active,
+.footer a:focus {
+  color: #1c2b33;
+}

@@ -253,3 +253,18 @@ a:focus {
   color: $lblue;
   text-decoration: none;
 }
+
+.footer {
+  a,
+  a:link,
+  a:visited {
+    color: $blue;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+  }
+
+  a:hover,
+  a:active,
+  a:focus {
+    color: $dblue;
+  }
+}
