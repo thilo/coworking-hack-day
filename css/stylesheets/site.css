@@ -434,39 +434,47 @@ a.btn_link:focus {
   background: #298cbb;
 }
 
+/* line 291, ../src/site.scss */
+.register_soon {
+  color: #298cbb;
+  font-weight: bold;
+  text-align: center;
+  padding: .75em 0;
+}
+
 @media screen and (max-device-width:660px), screen and (max-width:660px) {
-  /* line 294, ../src/site.scss */
+  /* line 302, ../src/site.scss */
   body {
     -webkit-text-size-adjust: 200%;
   }
 
-  /* line 298, ../src/site.scss */
+  /* line 306, ../src/site.scss */
   .container {
     width: 95%;
     margin: 0 auto;
     padding: 0 2%;
   }
 
-  /* line 304, ../src/site.scss */
+  /* line 312, ../src/site.scss */
   .content {
     width: auto;
     margin-right: 0;
     float: none;
   }
 
-  /* line 310, ../src/site.scss */
+  /* line 318, ../src/site.scss */
   .aside {
     float: none;
     width: auto;
   }
 
-  /* line 314, ../src/site.scss */
+  /* line 322, ../src/site.scss */
   .teaser {
     padding: 0;
   }
 }
 @media screen and (max-device-width:360px),screen and (max-width:360px) {
-  /* line 323, ../src/site.scss */
+  /* line 331, ../src/site.scss */
   .nav {
     display: none;
   }

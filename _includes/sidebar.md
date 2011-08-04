@@ -1,3 +1,7 @@
+<h4>Register</h4>
+
+<p class="register_soon">&mdash; free registration coming soon &mdash;</p>
+
 <h4>Submit a project</h4>
 
 <p>
@@ -27,5 +31,5 @@
   <li><span>12:00</span> Brunch</li>
   <li><span>14:30</span> Hacking ends</li>
   <li><span>15:00</span> Final Demos</li>
-  <li><span>16:00</span> Goodbye BBQ at Görlitzer Park</li>
+  <li><span>16:00</span> Goodbye BBQ near the venue</li>
 </ul>
