@@ -16,6 +16,7 @@
   Want to get involved in the organization, plan to offer a workshop or have any other questions? Drop us a line at <a href="mailto:cohackday@co-up.de">cohackday@co-up.de</a>
 </p>
 
+<iframe src="http://www.facebook.com/plugins/like.php?app_id=254989587863169&amp;href=http%3A%2F%2Fcoworkinghackday.org%2F&amp;send=false&amp;layout=standard&amp;width=194&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:194px; height:80px;" allowTransparency="true"></iframe>
 
 <h4>Schedule - Saturday, Aug 27</h4>
 
