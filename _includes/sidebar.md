@@ -1,6 +1,8 @@
 <h4>Register</h4>
-
-<p class="register_soon">&mdash; free registration coming soon &mdash;</p>
+<p>
+  Go grab your free ticket now, as long as supply lasts. (max 50)<br />
+  <a href="http://cohackday.eventbrite.com?ref=ebtn" target="_blank" class="btn_link", title="Register me for the Coworking Hack Day">&raquo; Register</a>
+</p>
 
 <h4>Submit a project</h4>
 
