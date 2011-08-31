@@ -1,13 +1,12 @@
 <h4>Register</h4>
 <p>
-  Go grab your free ticket now, as long as supply lasts. (max 50)<br />
-  <a href="http://cohackday.eventbrite.com?ref=ebtn" target="_blank" class="btn_link", title="Register me for the Coworking Hack Day">&raquo; Register</a>
+  The registration for this event has ended.
 </p>
 
 <h4>Submit a project</h4>
 
 <p>
-  Find co-hackers, check out all planned projects or add your own in our wiki.<br />
+  Check out all projects and who worked on them in our wiki.<br />
   <a href="http://coworkinghackday.wikispaces.com/" class="btn_link">&raquo; Go to wiki</a>
 </p>
 
@@ -15,7 +14,7 @@
 
 <p>
   To keep up to date, follow our twitter account <a href="http://twitter.com/cohackday" title="twitter.com/cohackday">@cohackday</a>. The hashtag is <em>#cohackday</em>.<br />
-  Want to get involved in the organization, plan to offer a workshop or have any other questions? Drop us a line at <a href="mailto:cohackday@co-up.de">cohackday@co-up.de</a>
+  Have any other questions? Drop us a line at <a href="mailto:cohackday@co-up.de">cohackday@co-up.de</a>
 </p>
 
 <iframe src="http://www.facebook.com/plugins/like.php?app_id=254989587863169&amp;href=http%3A%2F%2Fcoworkinghackday.org%2F&amp;send=false&amp;layout=standard&amp;width=194&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:194px; height:80px;" allowTransparency="true"></iframe>
@@ -34,5 +33,5 @@
   <li><span>12:00</span> Brunch</li>
   <li><span>14:30</span> Hacking ends</li>
   <li><span>15:00</span> Final Demos</li>
-  <li><span>16:00</span> Goodbye BBQ near the venue</li>
+  <li><span>16:00</span> Goodbye beers at Görlitzer Park</li>
 </ul>
