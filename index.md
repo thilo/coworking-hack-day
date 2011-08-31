@@ -9,7 +9,7 @@ We're all looking forward to seeing you at the next CoHackDay!
 
 ### About
 
-CoHackDay is just around the corner! Let's get together to share our ideas, think of new ones, and teach and learn from each other. Maybe you have a project of your own that you want or need help with, a suggestion for something that would make co.up better or more beautiful, or just want to come hang out to watch, learn something new, and get your hands dirty for the first time. We’re hoping for a diverse crowd with varied interests, whether that be crafting, lighting, art, hardware, photos, webstuff, arduino, making mate, or anything else you love. Everyone, no matter what their skill level might be, is invited to participate!
+CoHackDay is about getting together to share our ideas, think of new ones, and teach and learn from each other. Maybe you have a project of your own that you want or need help with, a suggestion for something that would make co.up better or more beautiful, or just want to come hang out to watch, learn something new, and get your hands dirty for the first time. We’re hoping for a diverse crowd with varied interests, whether that be crafting, lighting, art, hardware, photos, webstuff, arduino, making mate, or anything else you love. Everyone, no matter what their skill level might be, is invited to participate!
 
 ### Projects and RSVP
 
