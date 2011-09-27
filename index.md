@@ -4,7 +4,10 @@ layout: default
 
 ### Coworking Hack Day was a great success!
 
-To read all about it, please visit co.up's [blog post](http://co-up.de/2011/08/30/cohackday-writeup.html) or our [Twitter feed](http://www.twitter.com/cohackday). To see and tag yourself in pictures, please visit co.up's [Facebook page](http://www.facebook.com/co.up.cowoking), click Like, and tag away. If you have anything you'd like to share with us (an addition to the blog post or more photos), please send it to cohackday@co-up.de Thanks!
+Here's the great documentary film made by Alex (@langalex):
+<iframe src="http://player.vimeo.com/video/29536600?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe><p><a href="http://vimeo.com/29536600">coworking hackday @ co.up</a> from <a href="http://vimeo.com/langalex">Alexander Lang</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+
+For more information on projects, please visit co.up's [blog post](http://co-up.de/2011/08/30/cohackday-writeup.html) or our [Twitter feed](http://www.twitter.com/cohackday). To see and tag yourself in pictures, please visit co.up's [Facebook page](http://www.facebook.com/co.up.cowoking), click Like, and tag away. If you have anything you'd like to share with us (an addition to the blog post or more photos), please send it to cohackday@co-up.de Thanks!
 We're all looking forward to seeing you at the next CoHackDay!
 
 ### About
