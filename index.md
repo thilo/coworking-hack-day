@@ -4,7 +4,7 @@ layout: default
 
 ### Coworking Hack Day v2.0 is coming
 
-Plans are being made for the second CoHackDay, taking place on January 21st, during [Worldwide Jelly Week 2012](http://jellyweek.tumblr.com/). Just like last time, everyone is sincerely welcome to participate, whether by leading a project group, giving a workshop, or helping others bring their ideas to light. The [wiki](http://coworkinghackday.wikispaces.com) is the place to propose your great ideas & see what others would like to work on. Follow the [CoHackDay Twitter](http://www.twitter.com/cohackday] for updates. The hashtag to use is #cohackday!
+Plans are being made for the second CoHackDay, taking place on January 21st, during [Worldwide Jelly Week 2012](http://jellyweek.tumblr.com/). Just like last time, everyone is sincerely welcome to participate, whether by leading a project group, giving a workshop, or helping others bring their ideas to light. The [wiki](http://coworkinghackday.wikispaces.com) is the place to propose your great ideas & see what others would like to work on. Follow the [CoHackDay Twitter](http://www.twitter.com/cohackday) for updates. The hashtag to use is #cohackday!
 
 
 ### Coworking Hack Day was a great success!
