@@ -1,6 +1,7 @@
 <h4>Register</h4>
 <p>
-  Let us know if you're coming via the <a href="http://www.facebook.com/events/139776126137154/">Facebook event page</a>.
+  Let us know if you're coming via the<br />
+  <a href="http://www.facebook.com/events/139776126137154/">Facebook event page</a>.
 </p>
 
 <h4>Submit a project</h4>
